@@ -53,17 +53,17 @@ public class MainActivity extends AppCompatActivity {
 //                startActivity(intent) ;
 //            }
 //        });
-//
-//        Button button7 = (Button) findViewById(R.id.button7) ;
-//        button7.setOnClickListener(new Button.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this, Exer0705.class) ;
-//
-//                startActivity(intent) ;
-//            }
-//        });
-//
+
+        Button button7 = (Button) findViewById(R.id.button7) ;
+        button7.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Exer0705.class) ;
+
+                startActivity(intent) ;
+            }
+        });
+
 //        Button button8 = (Button) findViewById(R.id.button8) ;
 //        button8.setOnClickListener(new Button.OnClickListener() {
 //            @Override
@@ -114,17 +114,17 @@ public class MainActivity extends AppCompatActivity {
 //                startActivity(intent) ;
 //            }
 //        });
-//
-//        Button button7_org = (Button) findViewById(R.id.button7_org) ;
-//        button7_org.setOnClickListener(new Button.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this, Exer0705_org.class) ;
-//
-//                startActivity(intent) ;
-//            }
-//        });
-//
+
+        Button button7_org = (Button) findViewById(R.id.button7_org) ;
+        button7_org.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Exer0705_org.class) ;
+
+                startActivity(intent) ;
+            }
+        });
+
 //        Button button8_org = (Button) findViewById(R.id.button8_org) ;
 //        button8_org.setOnClickListener(new Button.OnClickListener() {
 //            @Override
