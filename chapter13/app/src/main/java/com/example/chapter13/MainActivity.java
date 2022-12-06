@@ -22,17 +22,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent) ;
             }
         });
-//
-//        Button button2 = (Button) findViewById(R.id.button2) ;
-//        button2.setOnClickListener(new Button.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this, Self1302.class) ;
-//
-//                startActivity(intent) ;
-//            }
-//        });
-//
+
+        Button button2 = (Button) findViewById(R.id.button2) ;
+        button2.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Self1302.class) ;
+
+                startActivity(intent) ;
+            }
+        });
+
         Button button3 = (Button) findViewById(R.id.button3) ;
         button3.setOnClickListener(new Button.OnClickListener() {
             @Override
@@ -74,16 +74,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//        Button button2_org = (Button) findViewById(R.id.button2_org) ;
-//        button2_org.setOnClickListener(new Button.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this, Self1302_org.class) ;
-//
-//                startActivity(intent) ;
-//            }
-//        });
-//
+        Button button2_org = (Button) findViewById(R.id.button2_org) ;
+        button2_org.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Self1302_org.class) ;
+
+                startActivity(intent) ;
+            }
+        });
+
         Button button3_org = (Button) findViewById(R.id.button3_org) ;
         button3_org.setOnClickListener(new Button.OnClickListener() {
             @Override
