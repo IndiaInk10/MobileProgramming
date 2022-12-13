@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="8장 연습문제"/>
+        <Button
+            android:id="@+id/E0806Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="연습문제 6번" />
+        <Button
+            android:id="@+id/E0807Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="연습문제 7번" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="10장 연습문제"/>
+        <Button
+            android:id="@+id/E10051Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="연습문제 5번" />
+        <Button
+            android:id="@+id/E1006MainBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="연습문제 6번" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="13장 연습문제"/>
+        <Button
+            android:id="@+id/E1306Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="연습문제 6번" />
+        <Button
+            android:id="@+id/E1307Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="연습문제 7번" />
+    </LinearLayout>
+</LinearLayout>
