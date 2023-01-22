@@ -37,7 +37,6 @@ public class ThirdActivity1005 extends Activity {
                 result = String.valueOf(num1 / num2);
                 break;
         }
-        Log.d("show", math.split(" ")[1]);
 
         TextView resultTxt = (TextView) findViewById(R.id.resultTxt);
         resultTxt.setText("결과값 : " + result);
@@ -50,10 +49,10 @@ public class ThirdActivity1005 extends Activity {
         final String finalResult = result;
         btnReturn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                Intent outIntent = new Intent(getApplicationContext(), SecondActivity1005.class);
+                outIntent.putExtra("result", finalResult);
+                setResult(RESULT_OK, outIntent);
                 finish();
-                Toast.makeText(getApplicationContext(),
-                        finalResult,
-                        Toast.LENGTH_SHORT).show();
             }
         });
 

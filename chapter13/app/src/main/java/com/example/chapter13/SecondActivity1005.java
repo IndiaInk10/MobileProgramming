@@ -6,7 +6,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class SecondActivity1005 extends AppCompatActivity {
@@ -36,7 +38,7 @@ public class SecondActivity1005 extends AppCompatActivity {
                 intent.putExtra("num2", num2);
                 intent.putExtra("math", math);
 
-                startActivity(intent);
+                startActivityForResult(intent, 0);
             }
         });
 
@@ -46,7 +48,14 @@ public class SecondActivity1005 extends AppCompatActivity {
                 finish();
             }
         });
-
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (resultCode == RESULT_OK) {
+            String result = data.getStringExtra("result");
+            Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
+        }
+    }
 }
